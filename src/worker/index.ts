@@ -4,17 +4,11 @@
  */
 
 // Cloudflare Workers Type Stubs for standalone compilation
-type D1Database = any;
-type KVNamespace = any;
-type R2Bucket = any;
 type DurableObjectNamespace = any;
 type DurableObjectState = any;
 type ExecutionContext = any;
 
 export interface Env {
-  DB: D1Database;
-  KV: KVNamespace;
-  R2_BUCKET: R2Bucket;
   PULSE_ROOM: DurableObjectNamespace;
 }
 

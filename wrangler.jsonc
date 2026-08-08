@@ -1,31 +1,12 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "pulse-messenger",
+  "name": "nibmuf",
   "main": "src/worker/index.ts",
   "compatibility_date": "2024-09-23",
   "compatibility_flags": ["nodejs_compat"],
   "assets": {
     "directory": "./dist"
   },
-  "d1_databases": [
-    {
-      "binding": "DB",
-      "database_name": "pulse-db",
-      "database_id": "pulse-d1-database-id"
-    }
-  ],
-  "kv_namespaces": [
-    {
-      "binding": "KV",
-      "id": "pulse-kv-namespace-id"
-    }
-  ],
-  "r2_buckets": [
-    {
-      "binding": "R2_BUCKET",
-      "bucket_name": "pulse-media-bucket"
-    }
-  ],
   "durable_objects": {
     "bindings": [
       {
