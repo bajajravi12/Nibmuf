@@ -1,0 +1,6 @@
+{
+  "name": "Pulse Messenger",
+  "description": "A high-performance, real-time messaging platform inspired by Telegram with custom branding, instant media messaging, group management, voice notes, and edge cloud architecture.",
+  "requestFramePermissions": ["microphone", "camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
